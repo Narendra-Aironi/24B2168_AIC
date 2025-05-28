@@ -4,6 +4,7 @@ Submission for IIT Bombay's AI community assignment 2025
 ---
 ## Setup instructions
 * Setup instructions for each technical question is given at the beginning of the corresponding `.ipynb` file.
+* Since the Fashion-MNIST dataset is quite large, I have not included it in the T_Q2 folder. You can download it from https://drive.google.com/drive/folders/1qZNwYOW53GZYZjpmsSpZMBNh1PEQumnb. Create a folder under T_Q2 named Fashion-MNIST and add all the downloaded files to it. This is needed only if you want to run the notebook yourself.
 * I am using a M3 Macbook Pro. GPU acceleration is done using MPS framework for Apple Silicon chips. For CUDA systems, use CTRL + F and replace all instances of `"mps"` with `"cuda"`.
 * In T_Q3, you will need to enter your google API key to run the code successfully.
 
